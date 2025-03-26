@@ -11,11 +11,8 @@
                 Console.Write("Digite um numero impar: ");
                 int numero = Convert.ToInt32(Console.ReadLine());
 
-                if (numero % 2 == 0)
-                {
-                    Console.WriteLine("Digite um numero valido");
+                if (!ValidarNumero.VerificarNumeroDigitado(numero))
                     continue;
-                }
 
                 int meio = numero / 2;
                 
