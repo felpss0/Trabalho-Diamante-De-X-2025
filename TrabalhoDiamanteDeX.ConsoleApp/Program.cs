@@ -12,7 +12,9 @@
                 int numero = Convert.ToInt32(Console.ReadLine());
 
                 if (!ValidarNumero.VerificarNumeroDigitado(numero))
+                {
                     continue;
+                }
 
                 DesenharDiamante.RealizarDesenho(numero);
 

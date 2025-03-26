@@ -8,11 +8,15 @@ namespace TrabalhoDiamanteDeX.ConsoleApp
 
             if (numero % 2 == 0)
             {
-                Console.WriteLine("Digite um numero valido");
+                Console.WriteLine("!!NUMERO INVALIDO. Aperte ENTER para continuar e digite um numero valido");
+                Console.ReadLine();
                 return false;
+                
             }
             return true;
+           
 
         }
+    
     }
 }
